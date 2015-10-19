@@ -4,6 +4,12 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.ListView;
+
+import com.wesleyreisz.mymusic.model.Song;
+
+import java.util.ArrayList;
+import java.util.List;
 
 
 public class MyMusicActivity extends Activity {
@@ -12,6 +18,7 @@ public class MyMusicActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_my_music);
+
     }
 
 
